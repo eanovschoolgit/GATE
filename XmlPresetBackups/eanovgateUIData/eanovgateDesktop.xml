@@ -14,8 +14,7 @@
              defaultValue="0.1" processorId="Dynamics" parameterId="GateAttack"
              middlePosition="10" numStrips="128" scaleFactor="0.35" height="75"
              showValuePopup="Below" suffix=" ms" filmstripImage="{PROJECT_FOLDER}new/128Knob.png"/>
-  <Component type="ScriptSlider" id="RELEASE" x="267" y="251" width="83" max="300"
-             defaultValue="100" processorId="Dynamics" parameterId="GateRelease"
+  <Component type="ScriptSliteRelease
              middlePosition="10" numStrips="128" scaleFactor="0.35" height="75"
              showValuePopup="Below" suffix=" ms" filmstripImage="{PROJECT_FOLDER}new/128Knob.png"/>
   <Component type="ScriptButton" id="BYPASS" x="325" y="22" processorId="Dynamics"

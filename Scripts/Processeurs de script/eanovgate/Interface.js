@@ -4,8 +4,6 @@ Content.makeFrontInterface(400, 400);
 
 const var Dynamics = Synth.getEffect("Dynamics");
 const var Knob1 = Content.getComponent("Knob1");
-const var THRESHOLD = Content.getComponent("THRESHOLD");
-
 
 
 
@@ -33,9 +31,7 @@ inline function onTHRESHOLDControl(component, value)
 };
 
 Content.getComponent("THRESHOLD").setControlCallback(onTHRESHOLDControl);
-function onNoteOn()
-{
-	
+function onNoteOn(
 }
  function onNoteOff()
 {

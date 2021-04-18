@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptImage" id="Image2" x="0" y="0" width="400" height="400"
+             fileName="{PROJECT_FOLDER}new/back.jpg"/>
+  <Component type="ScriptPanel" id="Panel1" x="-3" y="-4" width="433" height="438"
+             itemColour="2583719076" itemColour2="2101498994" visible="0"
+             enabled="0"/>
+  <Component type="ScriptSlider" id="THRESHOLD" x="54" y="251" width="83"
+             max="100" defaultValue="100" middlePosition="50" numStrips="128"
+             scaleFactor="0.35" height="75" showValuePopup="Below" suffix=" -- db"
+             filmstripImage="{PROJECT_FOLDER}new/128Knob.png"/>
+  <Component type="ScriptSlider" id="ATTACK" x="161" y="251" width="83" max="100"
+             defaultValue="0.1" processorId="Dynamics" parameterId="GateAttack"
+             middlePosition="10" numStrips="128" scaleFactor="0.35" height="75"
+             showValuePopup="Below" suffix=" ms" filmstripImage="{PROJECT_FOLDER}new/128Knob.png"/>
+  <Component type="ScriptSlider" id="RELEASE" x="267" y="251" width="83" max="300"
+             defaultValue="100" processorId="Dynamics" parameterId="GateRelease"
+             middlePosition="10" numStrips="128" scaleFactor="0.35" height="75"
+             showValuePopup="Below" suffix=" ms" filmstripImage="{PROJECT_FOLDER}new/128Knob.png"/>
+  <Component type="ScriptButton" id="BYPASS" x="325" y="22" processorId="Dynamics"
+             parameterId="GateEnabled" isVertical="0" scaleFactor="0.9" width="38"
+             height="26" filmstripImage="{PROJECT_FOLDER}new/onoff.png"/>
+  <Component type="ScriptFloatingTile" id="FloatingTile1" x="40" y="75" width="342"
+             height="117" ContentType="AudioAnalyser" bgColour="4278190080"
+             itemColour="4278439380" itemColour2="4473924" textColour="16761035"
+             Data="{&#13;&#10;  &quot;ProcessorId&quot;: &quot;Analyser&quot;,&#13;&#10;  &quot;Index&quot;: 1&#13;&#10;}"/>
+  <Component type="ScriptSlider" id="Knob1" x="18" y="71" middlePosition="-10"
+             min="-100" max="0" width="38" height="125" numStrips="128" filmstripImage="{PROJECT_FOLDER}new/vu128ok3.png"
+             scaleFactor="1.8"/>
+  <Component type="ScriptImage" id="Image3" x="16" y="68" width="44" height="131"
+             fileName="{PROJECT_FOLDER}new/vu1.png"/>
+  <Component type="ScriptLabel" id="Label1" x="356" y="20" text="ON" width="35"
+             height="25" bgColour="3353644" textColour="4284177243" fontStyle="Narrow Bold"
+             fontSize="14" alignment="left" itemColour2="4218384239" fontName="Bauhaus 93"
+             editable="0"/>
+  <Component type="ScriptLabel" id="Label2" x="296" y="19" text="off" width="32"
+             height="26" bgColour="3353644" textColour="4284177243" fontStyle="Narrow Bold"
+             itemColour2="4218384239" fontName="Bauhaus 93" fontSize="16"
+             editable="0"/>
+</ContentProperties>
